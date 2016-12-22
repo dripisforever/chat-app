@@ -1,0 +1,6 @@
+<div>
+  <strong><%= message.user.username %>:</strong><%= message.body %>
+  <span class="message_timestamp" style="color:red; margin-left:2em;">
+    <%= message.created_at.strftime("%H:%M") %>
+  </span>
+</div>
